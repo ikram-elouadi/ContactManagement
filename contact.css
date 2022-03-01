@@ -1,0 +1,138 @@
+
+.new{
+    background-color:rgb(240, 197, 9) ;
+    color :rgb(26, 12, 1);
+    padding: 4%;
+
+}
+
+
+.new a:hover{
+  color:red;
+}
+
+.every{
+    background-color: rgb(56, 29, 9);
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.formulaire{
+    margin: 0;
+    color:rgb(240, 197, 9) ;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.row{
+    margin-bottom:20px;
+
+}
+
+input[type=button],input[type=submit],#search,#update,#print,#delete,#groupeCreate,#add,#printG{
+    width: 150px;
+    height:50px;
+    margin: 30px;
+    border-radius: 45px;
+    color: sienna;
+    
+}
+
+
+input[type=button]:hover,input[type=submit]:hover,#print:hover,#delete:hover,#search:hover,#update:hover,#printG:hover,#groupeCreate:hover,#add:hover{
+    background-color: red;
+    color: rgb(56, 29, 9);
+}
+
+input[type=file]{
+    display: none;
+}
+
+.imgUP{
+    background-color: white;
+    color: rgb(163, 134, 4);
+    width: 48%;
+    padding: 5px;
+    padding-left: 3%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=text],input[type=tel],input[type=email],select{
+    width: 48%;
+    padding: 5px;
+    padding-left: 3%;
+    color:rgb(88, 37, 2);
+    font-weight: bold;
+}
+
+
+input[type=submit]{
+    margin-left:52vw;
+}
+
+
+.new a{
+    text-decoration: none;
+    color :rgb(26, 12, 1);
+}
+
+
+.all{
+    position: relative;
+}
+
+
+span{
+    position: absolute;
+    color:red;
+    top: 0px;
+    left: 40%;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 650px) {
+    span{
+        color:red;
+        top: 0px;
+        left: 20%;
+    }
+    
+  }
+
+.every img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    text-align: justify;
+    width: 95%;
+    row-gap: 1%;
+    column-gap:5%;
+    margin: 3% 0%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+    
+}
+
+.h{
+    font-size: 40px;
+    background-color: saddlebrown;
+    color: ivory;
+}
+
+.con{
+    font-size: 23px;
+}
+
+
+.deleted{
+    font-size: 50px;
+    color: lawngreen;
+    margin-bottom: 16vh;
+    margin-top: 16vh;
+}
